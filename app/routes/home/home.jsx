@@ -148,8 +148,8 @@ export const Home = () => {
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Rede de Alta Disponibilidade"
-        description="Reestruturação completa de rede em anel com fibra óptica para redundância e VLANs para segurança na Videplast."
+        title="Infraestrutura que acompanha o crescimento do seu negócio"
+        description="Além de automação e desenvolvimento, também possuo ampla experiência em infraestrutura de TI. Desde correções de falhas até projetos de modernização de redes, ajudo empresas a garantir mais estabilidade, segurança e desempenho."
         buttonText="Ver projeto"
         buttonLink="/projects/network"
         model={{

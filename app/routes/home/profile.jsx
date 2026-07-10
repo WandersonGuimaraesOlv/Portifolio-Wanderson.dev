@@ -29,9 +29,10 @@ const ProfileText = ({ visible, titleId }) => (
       que utilizo, confira minha <Link href="/uses">página de tecnologias</Link>.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      Nas horas vagas, gosto de desenvolver soluções com frameworks Angular e React, estudar lógica de
-      programação e acompanhar tendências tecnológicas. Estou sempre aberto a trocar ideias sobre novas
-      soluções, sinta-se à vontade para me enviar uma mensagem.
+      Menos trabalho manual. Mais tecnologia trabalhando para você.
+    </Text>
+    <Text className={styles.description} data-visible={visible} size="l" as="p">
+      Fale comigo pelo WhatsApp, apresente sua rotina e seus desafios. Juntos podemos identificar oportunidades para automatizar processos, aplicar Inteligência Artificial e desenvolver soluções simples, práticas e eficientes para o seu dia a dia. 🚀
     </Text>
   </Fragment>
 );
