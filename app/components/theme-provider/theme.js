@@ -86,7 +86,7 @@ const tokensTablet = {
 
 const tokensMobile = {
   spaceOuter: '24px',
-  fontSizeH0: pxToRem(56),
+  fontSizeH0: pxToRem(38),
   fontSizeH1: pxToRem(40),
   fontSizeH2: pxToRem(34),
   fontSizeH3: pxToRem(28),
@@ -99,7 +99,7 @@ const tokensMobile = {
 
 const tokensMobileSmall = {
   spaceOuter: '16px',
-  fontSizeH0: pxToRem(42),
+  fontSizeH0: pxToRem(30),
   fontSizeH1: pxToRem(38),
   fontSizeH2: pxToRem(28),
   fontSizeH3: pxToRem(24),
