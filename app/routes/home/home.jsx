@@ -104,7 +104,7 @@ export const Home = () => {
         visible={visibleSections.includes(projectOne.current)}
         index={1}
         title="Automações com Python & n8n"
-        description="Otimização de processos e fluxos operacionais por meio de integrações automáticas inteligentes."
+        description="Criação de automações, aplicações e integrações que eliminam retrabalho, economizam tempo e tornam o dia a dia mais eficiente."
         buttonText="Ver projeto"
         buttonLink="/projects/automations"
         model={{
