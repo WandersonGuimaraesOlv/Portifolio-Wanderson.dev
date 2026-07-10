@@ -19,8 +19,8 @@ import styles from './uses.module.css';
 
 export const meta = () => {
   return baseMeta({
-    title: 'Uses',
-    description: 'A list of hardware and software I use to do my thing',
+    title: 'Tecnologias',
+    description: 'Lista de ferramentas e softwares que utilizo no meu dia a dia',
   });
 };
 
@@ -34,32 +34,28 @@ export const Uses = () => {
           opacity={0.7}
         />
         <ProjectHeader
-          title="Uses"
-          description="A somewhat comprehensive list of tools, apps, hardware, and more that I use on a daily basis to design and code things. And yeah, that is a Johnny Mnemonic GIF in the background."
+          title="Tecnologias"
+          description="Uma lista detalhada das ferramentas, softwares, sistemas corporativos e hardwares que utilizo no meu dia a dia profissional para gerenciar infraestrutura de TI, criar automações e programar."
         />
         <ProjectSection padding="none" className={styles.section}>
           <ProjectSectionContent>
             <ProjectTextRow width="m">
-              <ProjectSectionHeading>Design</ProjectSectionHeading>
+              <ProjectSectionHeading>Automação & Processos</ProjectSectionHeading>
               <ProjectSectionText as="div">
                 <List>
                   <ListItem>
-                    <Link href="https://www.figma.com">Figma</Link> is my primary tool for
-                    UI design these days. Made the switch from Sketch in 2020 and haven’t
-                    looked back. I’ve also created{' '}
-                    <Link href="https://www.figma.com/@hamish">a few plugins</Link> that
-                    you can install.
+                    <Link href="https://n8n.io/">n8n</Link> é minha plataforma principal de
+                    orquestração de fluxos de dados, conectando sistemas e APIs de forma
+                    automatizada e eficiente.
                   </ListItem>
                   <ListItem>
-                    Any motion graphics I create are created in Adobe After Effects. So
-                    far I haven’t found a non-Adobe product that’s as good. If anyone has
-                    suggestions please <Link href="/contact">message me</Link>.
+                    <Link href="https://www.python.org/">Python</Link> é a linguagem padrão que
+                    utilizo para criar scripts customizados, automações de tarefas operacionais,
+                    integrações de dados e consumo de APIs.
                   </ListItem>
                   <ListItem>
-                    For any 3D models and video editing I use{' '}
-                    <Link href="https://www.blender.org/">Blender</Link>. Since 2.8 it’s
-                    become way simpler to use and in a lot of ways better than expensive
-                    paid tools like 3DS Max or Maya.
+                    <Link href="https://www.zabbix.com/">Zabbix</Link> é a ferramenta adotada
+                    para monitoramento proativo dos ativos críticos de rede e servidores de produção.
                   </ListItem>
                 </List>
               </ProjectSectionText>
@@ -69,45 +65,25 @@ export const Uses = () => {
         <ProjectSection padding="none" className={styles.section}>
           <ProjectSectionContent>
             <ProjectTextRow width="m">
-              <ProjectSectionHeading>Development</ProjectSectionHeading>
+              <ProjectSectionHeading>Desenvolvimento</ProjectSectionHeading>
               <ProjectSectionText as="div">
                 <List>
                   <ListItem>
-                    I use <Link href="https://vscodium.com/">VSCodium</Link> as my text
-                    editor, with the Tokyo Night theme and Operator Mono as my typeface of
-                    choice.
+                    Utilizo o <Link href="https://code.visualstudio.com/">VS Code</Link> como meu
+                    editor de código principal para scripts Python, automações e desenvolvimento web.
                   </ListItem>
                   <ListItem>
-                    Firefox is my main browser for both development and general use.
+                    Para o desenvolvimento frontend de painéis e interfaces de controle de suporte,
+                    utilizo frameworks como <Link href="https://angular.dev/">Angular</Link> e{' '}
+                    <Link href="https://react.dev/">React</Link> em conjunto com TypeScript e HTML/CSS.
                   </ListItem>
                   <ListItem>
-                    <Link href="https://reactjs.org/">React</Link> is my front end
-                    Javascript library of choice. The component-centric mental model is
-                    the first thing that truly made sense to me as a designer.
+                    Minhas consultas de relatórios operacionais, KPIs e análises financeiras de
+                    custo de TI são executadas diretamente em bancos de dados utilizando **SQL**.
                   </ListItem>
                   <ListItem>
-                    For 3D effects and image shaders I use{' '}
-                    <Link href="https://threejs.org/">three.js</Link>. It has a bit of a
-                    learning curve but you can do some really powerful stuff with it.
-                  </ListItem>
-                  <ListItem>
-                    For CSS I’ve used a myriad pre-processors and css-in-js solutions like
-                    styled-components, but these days I’m using vanilla CSS with{' '}
-                    <Link href="https://postcss.org/">PostCSS</Link> to get upcoming CSS
-                    features today.
-                  </ListItem>
-                  <ListItem>
-                    For Javascript animations I use{' '}
-                    <Link href="https://www.framer.com/motion/">Framer Motion</Link>, it’s
-                    a great way to add spring animations to React and three.js.
-                  </ListItem>
-                  <ListItem>
-                    For building and testing UI components in isolation I use{' '}
-                    <Link href="https://storybook.js.org/">Storybook</Link>. Check out the{' '}
-                    <Link href="https://storybook.hamishw.com">
-                      storybook for this website
-                    </Link>
-                    .
+                    Utilizo o Git e o **GitHub** para controle de versão de todos os meus scripts,
+                    automações e códigos de interfaces web.
                   </ListItem>
                 </List>
               </ProjectSectionText>
@@ -117,44 +93,32 @@ export const Uses = () => {
         <ProjectSection padding="none" className={styles.section}>
           <ProjectSectionContent>
             <ProjectTextRow stretch width="m">
-              <ProjectSectionHeading>System</ProjectSectionHeading>
+              <ProjectSectionHeading>Sistemas & Infraestrutura</ProjectSectionHeading>
               <Table>
                 <TableBody>
                   <TableRow>
-                    <TableHeadCell>Desktop</TableHeadCell>
-                    <TableCell>Custom built</TableCell>
+                    <TableHeadCell>Sistemas ERP / PDV</TableHeadCell>
+                    <TableCell>TOTVS Protheus, Zanthus PDV, SAP</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>Operating system</TableHeadCell>
-                    <TableCell>Arch Linux (by the way)</TableCell>
+                    <TableHeadCell>Sistemas Operacionais</TableHeadCell>
+                    <TableCell>Windows Server (Active Directory, GPO) e Linux (Ubuntu/Debian)</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>Browser</TableHeadCell>
-                    <TableCell>Zen Browser</TableCell>
+                    <TableHeadCell>Infraestrutura de Rede</TableHeadCell>
+                    <TableCell>Cabeamento óptico estruturado em anel, switches gerenciáveis e VLANs</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>Monitor</TableHeadCell>
-                    <TableCell>1440p IPS 144hz LG 27GL850</TableCell>
+                    <TableHeadCell>Monitoramento Patrimonial</TableHeadCell>
+                    <TableCell>CFTV (Administração e segurança física de servidores críticos)</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>Keyboard</TableHeadCell>
-                    <TableCell>Tofu65</TableCell>
+                    <TableHeadCell>Comunicação e Voz</TableHeadCell>
+                    <TableCell>Telefonia IP, centrais telefônicas PABX e gerenciamento de ramais</TableCell>
                   </TableRow>
                   <TableRow>
-                    <TableHeadCell>Mouse</TableHeadCell>
-                    <TableCell>Logitech G403</TableCell>
-                  </TableRow>
-                  <TableRow>
-                    <TableHeadCell>Laptop</TableHeadCell>
-                    <TableCell>Macbook Pro 14″</TableCell>
-                  </TableRow>
-                  <TableRow>
-                    <TableHeadCell>Headphones</TableHeadCell>
-                    <TableCell>Audio Technica ATH-M50x/Apple Airpods</TableCell>
-                  </TableRow>
-                  <TableRow>
-                    <TableHeadCell>Microphone</TableHeadCell>
-                    <TableCell>Blue Yeti</TableCell>
+                    <TableHeadCell>Segurança Digital</TableHeadCell>
+                    <TableCell>Políticas de controle de acessos, LGPD e monitoramento de logs</TableCell>
                   </TableRow>
                 </TableBody>
               </Table>

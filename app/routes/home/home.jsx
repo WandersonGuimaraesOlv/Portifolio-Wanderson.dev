@@ -41,8 +41,8 @@ export const links = () => {
 
 export const meta = () => {
   return baseMeta({
-    title: 'Designer + Developer',
-    description: `Design portfolio of ${config.name} — a product designer working on web & mobile apps with a focus on motion, experience design, and accessibility.`,
+    title: 'Analista de TI + Automação',
+    description: `Portfólio de ${config.name} — analista de TI focado em infraestrutura, redes, suporte corporativo e automações de processos com Python e n8n.`,
   });
 };
 
@@ -103,13 +103,13 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="Designing the future of education"
-        description="Designing a platform to help educators build better online courseware"
-        buttonText="View project"
-        buttonLink="/projects/smart-sparrow"
+        title="Automações com Python & n8n"
+        description="Otimização de processos e fluxos operacionais por meio de integrações automáticas inteligentes."
+        buttonText="Ver projeto"
+        buttonLink="/projects/automations"
         model={{
           type: 'laptop',
-          alt: 'Smart Sparrow lesson builder',
+          alt: 'Workflow de automação n8n e scripts Python',
           textures: [
             {
               srcSet: `${sprTexture} 1280w, ${sprTextureLarge} 2560w`,
@@ -124,13 +124,13 @@ export const Home = () => {
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="Video game progress tracking"
-        description="Design and development for a video game tracking app built in React Native"
-        buttonText="View website"
-        buttonLink="https://gamestack.hamishw.com"
+        title="Integração PIX - Zanthus PDV"
+        description="Implantação e integração do método de pagamento PIX no PDV, modernizando o fluxo de caixa."
+        buttonText="Ver projeto"
+        buttonLink="/projects/pix-integration"
         model={{
           type: 'phone',
-          alt: 'App login screen',
+          alt: 'Tela de pagamento PIX integrado',
           textures: [
             {
               srcSet: `${gamestackTexture} 375w, ${gamestackTextureLarge} 750w`,
@@ -148,13 +148,13 @@ export const Home = () => {
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Biomedical image collaboration"
-        description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
-        buttonText="View project"
-        buttonLink="/projects/slice"
+        title="Rede de Alta Disponibilidade"
+        description="Reestruturação completa de rede em anel com fibra óptica para redundância e VLANs para segurança na Videplast."
+        buttonText="Ver projeto"
+        buttonLink="/projects/network"
         model={{
           type: 'laptop',
-          alt: 'Annotating a biomedical image in the Slice app',
+          alt: 'Dashboard de monitoramento da rede de fibra óptica',
           textures: [
             {
               srcSet: `${sliceTexture} 800w, ${sliceTextureLarge} 1920w`,

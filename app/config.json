@@ -1,11 +1,15 @@
 {
-  "name": "Hamish Williams",
-  "role": "Designer",
-  "disciplines": ["Developer", "Prototyper", "Animator", "Illustrator", "Modder"],
-  "url": "https://hamishw.com",
-  "bluesky": "hamishw.com",
-  "figma": "@Hamish",
-  "github": "HamishMW",
-  "repo": "https://github.com/HamishMW/portfolio",
+  "name": "Wanderson Guimarães",
+  "role": "Analista de TI",
+  "disciplines": [
+    "Automação Python/n8n",
+    "Redes & Servidores",
+    "Dev Angular/React",
+    "Suporte & Operações"
+  ],
+  "url": "https://linkedin.com/in/wanderson-guimaraes-3929a11a6/",
+  "linkedin": "wanderson-guimaraes-3929a11a6",
+  "github": "WandersonGuimaraesOlv",
+  "repo": "https://github.com/WandersonGuimaraesOlv/portfolio",
   "ascii": "__  __  __\n\u005C \u005C \u005C \u005C \u005C\u2215\n \u005C \u005C\u2215\u005C \u005C\n  \u005C\u2215  \u005C\u2215\n"
 }
