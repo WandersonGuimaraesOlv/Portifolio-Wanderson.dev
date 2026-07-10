@@ -41,7 +41,7 @@ export const links = () => {
 
 export const meta = () => {
   return baseMeta({
-    title: 'Analista de TI + Automação',
+    title: 'Resolvendo problemas através da tecnologia',
     description: `Portfólio de ${config.name} — analista de TI focado em infraestrutura, redes, suporte corporativo e automações de processos com Python e n8n.`,
   });
 };
